@@ -33,3 +33,6 @@ This project uses YOLOv8 to train an instance segmentation model for detecting d
     python scripts/02_train.py
     ```
     This will start the training. Results, including the final trained models, will be saved in a new `runs/` folder.
+
+    **Dataset(RAW)**
+    https://drive.google.com/file/d/1Px9mjiStv8ikHnKAHeiIQ82lMCp5yCua/view?usp=sharing
