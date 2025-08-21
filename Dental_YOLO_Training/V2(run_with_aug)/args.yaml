@@ -13,7 +13,7 @@ cache: false
 device: '0'
 workers: 8
 project: Dental_YOLO_Training
-name: V1(run_without_aug)3
+name: V2(run_with_aug)
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -77,7 +77,7 @@ warmup_epochs: 3.0
 warmup_momentum: 0.8
 warmup_bias_lr: 0.1
 box: 7.5
-cls: 0.5
+cls: 1.5
 dfl: 1.5
 pose: 12.0
 kobj: 1.0
@@ -96,10 +96,10 @@ bgr: 0.0
 mosaic: 1.0
 mixup: 0.0
 cutmix: 0.0
-copy_paste: 0.0
+copy_paste: 0.2
 copy_paste_mode: flip
 auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: Dental_YOLO_Training/V1(run_without_aug)3
+save_dir: Dental_YOLO_Training/V2(run_with_aug)
