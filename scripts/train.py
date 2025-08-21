@@ -10,6 +10,7 @@ results = model.train(
     epochs=20,
     imgsz=640,
     project='Dental_YOLO_Training',
-    name='run_withou_aug', 
+    device=0,
+    name='V1(run_without_aug)', 
 
 )
