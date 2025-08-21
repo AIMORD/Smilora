@@ -1,0 +1,10 @@
+# Core Deep Learning & Computer Vision
+ultralytics
+torch
+torchvision
+opencv-python-headless
+
+# Data Handling & Plotting
+pandas
+matplotlib
+pyyaml

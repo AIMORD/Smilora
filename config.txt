@@ -1,0 +1,7 @@
+Host 192.168.3.214
+  HostName 192.168.3.214
+  User obamabinladin
+
+Host labpc
+  HostName 192.168.3.238
+  User cnavneeth
