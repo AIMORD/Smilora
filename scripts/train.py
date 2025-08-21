@@ -11,6 +11,8 @@ results = model.train(
     imgsz=640,
     project='Dental_YOLO_Training',
     device=0,
-    name='V1(run_without_aug)', 
+    name='V2(run_with_aug)', 
+    cls=1.5,
+    copy_paste=.2
 
 )
