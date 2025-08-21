@@ -1,0 +1,9 @@
+names:
+- Caries
+- Cavity
+- Crack
+- Tooth
+nc: 4
+test: /home/obamabinladin/Documents/AIMORD/Git_repos/Smilora/data/processed/Dental_YOLO_Final_Dataset/images/test
+train: /home/obamabinladin/Documents/AIMORD/Git_repos/Smilora/data/processed/Dental_YOLO_Final_Dataset/images/train
+val: /home/obamabinladin/Documents/AIMORD/Git_repos/Smilora/data/processed/Dental_YOLO_Final_Dataset/images/valid
