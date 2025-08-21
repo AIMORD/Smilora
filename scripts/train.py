@@ -10,5 +10,7 @@ results = model.train(
     epochs=150,      # <-- Set to the target for Day 1
     imgsz=640,
     project='Dental_YOLO_Training',
-    name='automated_run_100_epochs' # A consistent name for the project
+    name='automated_run_100_epochs',# A consistent name for the project
+    device=0
+
 )
