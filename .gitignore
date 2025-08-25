@@ -216,7 +216,7 @@ datasets/
 # ## Model Weights & Checkpoints ##
 # Ignore common model file extensions.
 models/
-*.pt
+#*.pt
 *.pth
 *.h5
 *.onnx
