@@ -60,7 +60,7 @@ def generate_gemini_report(api_key, image, detections):
 st.title("🦷 AI Dental Health Assistant")
 
 # --- Setup ---
-MODEL_PATH = 'Dental_YOLO_Training/v4run_full_augmentation/weights/best.pt'
+MODEL_PATH = 'results/best.pt'
 model = load_yolo_model(MODEL_PATH)
 
 try:
