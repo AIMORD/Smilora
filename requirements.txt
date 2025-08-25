@@ -3,7 +3,9 @@ ultralytics
 torch
 torchvision
 opencv-python-headless
+google-generativeai
 
+Pillow
 # Data Handling & Plotting
 pandas
 matplotlib
