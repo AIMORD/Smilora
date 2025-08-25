@@ -64,7 +64,8 @@ MODEL_PATH = 'results/best.pt'
 model = load_yolo_model(MODEL_PATH)
 
 try:
-    GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+    GEMINI_API_KEY = st.secrets["general"]["GEMINI_API_KEY"]
+    genai.configure(api_key=api_key)
 except (FileNotFoundError, KeyError):
     st.error("Gemini API key not found. Please create a .streamlit/secrets.toml file with your key.")
     GEMINI_API_KEY = None
